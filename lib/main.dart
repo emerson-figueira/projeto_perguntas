@@ -26,7 +26,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
         ),
         body: Column(
           children: [
-            Text(perguntas[perguntaSelecionada]),
+            Text(perguntas[_perguntaSelecionada]),
             // ignore: deprecated_member_use
             RaisedButton(
               child: Text('Resposta 1'),
